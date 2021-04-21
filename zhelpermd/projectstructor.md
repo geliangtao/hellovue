@@ -1,4 +1,5 @@
 # helloworld(通过vue-cli脚手架初始化)的项目结构
+[参考文档](https://segmentfault.com/a/1190000017828766)
 ├─build                 // 保存一些webpack的初始化配置,项目构建
 │ ├─build.js            // 生产环境构建
 │ ├─check-version.js    // 检查npm、node版本
@@ -36,3 +37,10 @@
 ├─package-lock.json     // 项目包管控文件
 ├─package.json          // 项目配置
 └─README.md             // 项目说明书
+
+# index.js
+页面入口文件
+# src/App.vue
+可以认为是主组件，可以通过<rounter-view />开放入口让其他组件得以显示
+# src/main.js
+初始化vue实例并使用需要的插件。
